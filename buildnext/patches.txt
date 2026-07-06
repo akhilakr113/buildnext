@@ -4,3 +4,5 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
+
+buildnext.patches.supplier_fields # 06-07-2026
