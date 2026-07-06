@@ -8,7 +8,7 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+# required_apps = ["india_compliance"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -34,6 +34,16 @@ app_license = "mit"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "buildnext/public/scss/website"
+
+fixtures = [
+    {
+        "doctype": "Workflow",
+        "filters": [
+            ["document_type", "=", "Vendor Onboarding Request"],
+            ["is_active", "=", 1]
+        ]
+    }
+]
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}

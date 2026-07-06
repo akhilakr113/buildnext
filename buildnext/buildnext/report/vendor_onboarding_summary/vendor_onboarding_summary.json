@@ -1,0 +1,31 @@
+{
+ "add_total_row": 1,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2026-07-06 17:02:05.034319",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2026-07-06 17:02:05.034319",
+ "modified_by": "Administrator",
+ "module": "buildnext",
+ "name": "Vendor Onboarding Summary",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Vendor Onboarding Request",
+ "report_name": "Vendor Onboarding Summary",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Vendor Onboarding Reviewer"
+  },
+  {
+   "role": "Vendor Onboarding Requester"
+  }
+ ],
+ "timeout": 0
+}
