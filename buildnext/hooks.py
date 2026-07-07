@@ -42,6 +42,24 @@ fixtures = [
             ["document_type", "=", "Vendor Onboarding Request"],
             ["is_active", "=", 1]
         ]
+    },
+    {
+        "doctype": "Notification",
+        "filters": [
+            ["document_type", "=", "Vendor Onboarding Request"]
+        ]
+    },
+    {
+        "doctype": "Dashboard Chart", 
+        "filters": [
+            ["name", "=", "Approved vs Rejected Vendors"]
+        ]
+    },
+    {
+        "doctype": "Dashboard",
+        "filters": [
+            ["name", "=", "Vendor Onboarding Request"]
+        ]
     }
 ]
 

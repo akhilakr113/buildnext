@@ -1,0 +1,23 @@
+[
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Approved vs Rejected Vendors",
+    "parent": "Vendor Onboarding Request",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "dashboard_name": "Vendor Onboarding Request",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2026-07-07 14:02:14.692368",
+  "module": null,
+  "name": "Vendor Onboarding Request"
+ }
+]
